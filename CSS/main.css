@@ -1,0 +1,127 @@
+html,
+body {
+  font-family: "Overpass", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Overpass", Arial, Helvetica, sans-serif;
+  font-size: 26px;
+}
+
+
+.nav__pages-list,
+.nav__sections-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav__pages-list-item,
+.nav__sections-list-item {
+  width: 92px;
+  text-align: center;
+}
+
+.nav__pages-link,
+.nav__sections-link {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav__logo-img {
+  padding: 15px;
+}
+
+
+
+
+.pricing {
+  padding: 0 5%;
+  background: #E7E6E5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.pricing__container {
+  padding: 0 5%;
+}
+
+.pricing__title {
+  font-family: "Chivo", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  margin: 0 0 30px;
+}
+
+.pricing__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing__card {
+  background: #FFFFFF;
+  padding: 30px;
+  width: 25%;
+}
+
+.pricing__card-title {
+  margin: 0;
+  font-family: "Overpass", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.pricing__card-price {
+  font-family: "Chivo", Arial, Helvetica, sans-serif;
+  font-size: 62px;
+  margin: 0;
+}
+
+.pricing__card-bottom {
+  font-size: 19px;
+}
+
+.pricing__card-bottom p,
+.pricing__card-bottom ol,
+.pricing__card-bottom ul li {
+  font-size: 19px;
+}
+
+
+.nav-footer__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+}
+
+.nav-footer__list-item {
+  align-self: center;
+}
+
+.nav-footer__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-footer__link:active,
+.nav-footer__link:hover,
+.nav-footer__link:focus {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-footer__logo {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
