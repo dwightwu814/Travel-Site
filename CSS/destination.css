@@ -1,8 +1,24 @@
-.main-section {
+.main-section-hawaii {
   background-image: url("../Assets/hawaii.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
 
+}
+
+.main-section-iceland {
+  background-image: url("../Assets/iceland.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.main-section-greece {
+  background-image: url("../Assets/greece.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-heading-desti {
