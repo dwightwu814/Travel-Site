@@ -27,7 +27,7 @@ p {
   font-weight: normal;
   padding: 0 5%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: stretch;
   height: 100%;
   padding-top: 8px;
@@ -72,8 +72,12 @@ p {
   text-decoration-thickness: 2px;
 }
 
-.nav__logo-img {
-  padding: 15px;
+.logo {
+  color: var(--light-blue);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
 }
 
 .header {

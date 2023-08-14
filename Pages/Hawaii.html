@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Overpass:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/destination.css">
     <title>Travel Site</title>
 
 
 </head>
+
 <body>
     <div class="nav">
+        <a class="logo" href="../">
+            Travel Site
+        </a>
+
         <ul class="nav__pages-list">
             <li class="nav__pages-list-item">
-                <a class="nav__pages-link" href="https://www.google.com">Home</a>
+                <a class="nav__pages-link" href="../">Home</a>
             </li>
             <li class="nav__pages-list-item">
-                <a class="nav__pages-link" href="/">Hawaii</a>
+                <a class="nav__pages-link" href=".">Hawaii</a>
             </li>
             <li class="nav__pages-list-item">
                 <a class="nav__pages-link" href="/">Iceland</a>
@@ -29,103 +37,99 @@
                 <a class="nav__pages-link" href="/">Greece</a>
             </li>
 
-  
+
     </div>
-    
-    <header class="header">
-        <div class="header__container">
-            <p class="header__copy">
-                Travelling Comes With Endless Discoveries</p>
-            <p class="header__tagline"> 
-                Minimal, yet <span class="header__tagline--bold header__tagline--uppercase"> sharp </span> 
-                Modern, yet <span class="header__tagline--bold header__tagline--uppercase"> timeless </span> </p>
-        </div>
-    </header>
-    
-    <main>
-        <div id="features" class="features">
-            <div class="features__container">
-                <div class="features__column">
-                    <h3 class="features__title">Features:</h3>
-                    <ul class="features__list">
-                        <li class="features__list-item">
-                            A Massive 1.5 Inch Touch Screen
-                        </li>
-                        <li class="features__list-item">
-                            A Range of Watch Face Backgrounds to Choose From
-                        </li>
-                        <li class="features__list-item">
-                            Water Resistant up to 7 Feet
-                        </li>
-                        <li class="features__list-item">
-                            Step Tracking, Heart Rate & Sleep Monitoring
-                        <li class="features__list-item">
-                            Notifications from popular app
-                        <li class="features__list-item">
-                            10 days of battery life
-                        </li>
-                    </ul>
+
+
+    <main class="main-section">
+
+        <h2 class="section-heading-desti">Hawaii</h2>
+        <div class="desti-cards-group">
+            <div class="desti-card">
+                <div class="desti-card-title">Friday</div>
+
+                <div class="activities-group">
+
+                    <div class="activities">Breakfast</div>
+                    <div class="activities">Lunch</div>
+                    <div class="activities">Dinner</div>
+                    <div class="activities">Snorkeling</div>
+
                 </div>
-                <div class="features__column">
-                    <img class="features__image" src="file:///Users/dwightwu/Desktop/BrainStation/Starter%20Code%20Challenge%20HTML%20&%20CSS%204/watch-side.png" alt="Side view of F+F Watch">
+            </div>
+
+            <div class="desti-card">
+                <div class="desti-card-title">Saturday</div>
+                <div class="activities-group">
+
+                    <div class="activities">Breakfast</div>
+                    <div class="activities">Lunch</div>
+                    <div class="activities">Dinner</div>
+                    <div class="activities">Snorkeling</div>
+                </div>
+            </div>
+
+
+            <div class="desti-card">
+                <div class="desti-card-title">Sunday</div>
+                <div class="activities-group">
+
+                    <div class="activities">Breakfast</div>
+                    <div class="activities">Lunch</div>
+                    <div class="activities">Dinner</div>
+                    <div class="activities">Snorkeling</div>
                 </div>
             </div>
         </div>
-        <div id="pricing" class="pricing">
-            <div class="pricing__container">
-                <h3 class="pricing__title">Pricing:</h3>
-                <div class="pricing__cards">
-                    <div class="pricing__card">
-                        <div class="pricing__card-top">
-                            <h4 class="pricing__card-title">Package 1:</h4>
-                            <p class="pricing__card-price">$89</p>
-                        </div>
-                        <div class="pricing__card-bottom">
-                        <hr style="height:2px solid black">
-                        <p class="pricing__card-price">1.Watch face <br> 2.Interchangeable band (white) <br> 3.Charging cable</p>
-                        </div>
-                    </div>
-                    <div class="pricing__card">
-                        <div class="pricing__card-top">
-                            <h4 class="pricing__card-title">Package 2:</h4>
-                            <p class="pricing__card-price">$99</p>
-                        </div>
-                        <div class="pricing__card-bottom">
-                        <hr style="height:2px solid black">
-                        <p class="pricing__card-price"> 1.Everything in Package 1 <br> 2.Interchangeable band (black) </p>   
-                        </div>
-                    </div>
-                    <div class="pricing__card">
-                        <div class="pricing__card-top">
-                            <h4 class="pricing__card-title">Package 3:</h4>
-                            <p class="pricing__card-price">$109</p>
-                        </div>
-                        <div class="pricing__card-bottom">
-                        <hr style="height:2px solid black">
-                        <p class="pricing__card-price"> 1.Everything in Package <br> 2.Extra charging cable <br> 3.Warranty for 5 years </p>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </main>
 
     <footer>
         <nav class="nav-footer">
-            <ul class="nav-footer__list">
-                <li class="nav-footer__list-item">
-                    <a class="nav-footer__link" href="mailto:INFO@FF.COM">INFO@FF.COM</a>
-                </li>
-                <li class="nav-footer__list-item">
-                    <a class="nav-footer__link" href="./index.html">
-                        <img class="nav-footer__logo" src="../F+F-logo-black.svg" alt="F+F Logo / Link to Home">
-                    </a>
-                </li>
-                <li class="nav-footer__list-item">
-                    <a class="nav-footer__link" href="tel:8671024337">867 - 102 - 4337</a>
-                </li>
-            </ul>
+            <div class="footer-column">
+                <div class="footer-title">Contact</div>
+                <div class="footer-content-mainblock">
+                    <div class="footer-content-block">
+                        <div class="footer-content">EMAIL</div>
+                        <div class="footer-end">info@travelsite.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <div class="footer-title">Contact</div>
+
+
+                <div class="footer-content-mainblock">
+                    <div class="footer-content-block">
+                        <div class="footer-content">Monday - Friday </div>
+                        <div class="footer-end">9:00 AM - 5:00 PM </div>
+                    </div>
+
+                    <div class="footer-content-block">
+                        <div class="footer-content">Monday - Friday </div>
+                        <div class="footer-end">9:00 AM - 5:00 PM </div>
+                    </div>
+
+                    <div class="footer-content-block">
+                        <div class="footer-content">Monday - Friday </div>
+                        <div class="footer-end">9:00 AM - 5:00 PM </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+                <div class="footer-title">Contact</div>
+                <div class="footer-content-mainblock">
+                    <img src="Assets/icon-instagram.png" />
+                    <img src="Assets/icon-facebook.png" />
+                    <img src="Assets/icon-twitter.png" />
+                </div>
+            </div>
+
         </nav>
     </footer>
 </body>
+
 </html>
